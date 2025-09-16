@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product — iStore</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav__inner">
+      <nav class="nav__left" aria-label="Primary">
+        <a class="nav__link" href="index.html#home">Home</a>
+        <a class="nav__link" href="index.html#products">Products</a>
+        <a class="nav__link" href="index.html#contact">Contact</a>
+      </nav>
+      <div class="nav__right">
+        <span class="brand">iStore</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="section" style="padding-top:96px">
+    <div class="container">
+  <div id="product" class="product-detail">
+        <!-- Populated by product.js -->
+      </div>
+      <noscript>
+        <p style="color:#fff">Please enable JavaScript to view product details.</p>
+      </noscript>
+    </div>
+  </main>
+
+  <script src="products.js"></script>
+  <script src="product.js"></script>
+</body>
+</html>
